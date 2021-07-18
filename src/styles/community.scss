@@ -1,0 +1,30 @@
+.community{
+  display: flex;
+  justify-content: center;
+  .community__section__card {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .community__section{
+      display: flex;
+      .community__card__content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  .community__aciton_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.twitter__widget{
+  position: absolute;
+  bottom: 25px;
+  right: 15px;
+  border-radius: 50%;
+}

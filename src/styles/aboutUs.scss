@@ -1,0 +1,41 @@
+.contributor__card{
+  width: 600px;
+  .contributors{
+    display: flex;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    padding: 5px 20px;
+    .display__img{
+      border-radius: 50%;
+    }
+    .contributor__details{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
+.about__us__card__wrapper {
+  display: flex;
+  justify-content: center;
+  .about__us__card{
+    width: 800px;
+    .about__us__section{
+      display: flex;
+    }
+  }
+}
+.contributors__wrapper{
+  display: flex;
+  justify-content: center;
+}
+.contributor__description{
+  padding: 5px 10px;
+}
+
+.contributor__card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
